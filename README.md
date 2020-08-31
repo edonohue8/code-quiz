@@ -15,11 +15,21 @@ Setting up the scoreboard functionality was next.
 Lastly, I added styling to the quiz.
 
 ## Website Link
+https://edonohue8.github.io/code-quiz/
 
 ## Screenshot of Website Page
 
 * **index**
 ![](readme-images/index.png)
+
+* **Questions**
+![](readme-images/question.png)
+
+* **Entering initials**
+![](readme-images/enter-initials.png)
+
+* **High Scores**
+![](readme-images/scores.png)
 
 ## Author
 
