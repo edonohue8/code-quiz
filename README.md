@@ -10,9 +10,9 @@ My first step was to set-up the HTML page.  I displayed a welcome message and bu
 
 Next, I worked on the JavaScript file.  I started by creating variables to connect functionality for the buttons on the HTML page.  Next, I created a series of questions with multiple choice selections.  Afterwards, I created functions to make answering each question responsive.  This included keeping score and programming the time counter to decrease by 10 seconds if a question is to be answered incorrectly.
 
-Setting up the scoreboard functionality was next.
+Setting up the scoreboard functionality was next.  At the end of the quiz, the user would see how many questions were answered correctly.  There is then a field to enter the user's initials, that would be saved unto the scoreboard.
 
-Lastly, I added styling to the quiz.
+Lastly, I added styling to the quiz.  This included making the quiz responsive to mobile device screens, adding styling to buttons, as well as universal styling such as font.
 
 ## Website Link
 https://edonohue8.github.io/code-quiz/
