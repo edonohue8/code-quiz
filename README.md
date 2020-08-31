@@ -20,16 +20,16 @@ https://edonohue8.github.io/code-quiz/
 ## Screenshot of Website Page
 
 * **index**
-![](readme-images/index.png)
+<img src="readme-images/index.png" width="600">
 
 * **Questions**
-![](readme-images/question.png)
+<img src="readme-images/question.png" width="600">
 
 * **Entering initials**
-![](readme-images/enter-initials.png)
+<img src="readme-images/enter-initials.png" width="600">
 
 * **High Scores**
-![](readme-images/scores.png)
+<img src="readme-images/scores.png" width="600">
 
 ## Author
 
