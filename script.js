@@ -149,7 +149,7 @@ function beginQuiz() {
 
 function displayScore() {
     quizContent.style.display = "none";
-    endGameSection.style.display = "flex";
+    endGameSection.style.display = "block";
     clearInterval(timerInterval);
     highScoreName.value = "";
     resultScore.innerHTML = "Your score is " + score + " out of " + questions.length + ".";
