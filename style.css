@@ -72,16 +72,20 @@ li{
     list-style-type: none;
 }
 
-#highScoreInitials{
+#highScoreInitials {
     display: inline-block;
     padding-left: 3rem;
     font-family: sans-serif;
 }
 
-#highScore{
+#highScore {
     float: right;
     padding-right: 8rem;
     font-family: sans-serif;
+}
+
+.footer {
+    text-align: center;
 }
 
 /* Adapting to multiple screen sizes */
