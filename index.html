@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Code Quiz</title>
+
+    <!--My stylesheet-->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div>
+        <div id="welcomeMsg">
+            <section>
+                <h1>Welcome to the JavaScript Fundamentals Quiz</h1>
+                <p>Test your knowledge of JavaScript basic concepts.</p>
+            </section>
+
+            <div>
+                <button id="beginBtn">Begin Quiz</button>
+            </div>
+
+            <div>
+                <button id="scoreboardBtn" onclick="displayHighScore()">Click here to view Scoreboard</button>
+            </div>
+        </div>
+
+        <div id="quizActual">
+            <div id="timer">Time remaining: </div>
+
+            <div id="questionsDisplayed"></div>
+            <button id="1" onclick="answerCheck('1')">1</button>
+            <button id="2" onclick="answerCheck('2')">2</button>
+            <button id="3" onclick="answerCheck('3')">3</button>
+            <button id="4" onclick="answerCheck('4')">4</button>
+            <button id="5" onclick="answerCheck('5')">5</button>
+        </div>
+
+        <section id="endgame">
+            <div id="result"></div>
+            <input type="text" placeholder="Please enter your initials." name="initials" id="initials" />
+            <button id="submitScore">Submit Score</button>
+        </section>
+
+        <section id="highScoreSection">
+            <div id="highScorePage">
+                <div id="highScoreHeading">
+                    User Initials
+                    Score
+                </div>
+                <div id="highScoreInitials"></div>
+                <div id="highScore"></div>
+            </div>
+        </section>
+    </div>
+
+    <!--My JavaScript-->
+    <script src="script.js"></script>
+</body>
+
+</html>

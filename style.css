@@ -1,0 +1,49 @@
+/* Questions styling */
+
+#quizActual {
+    display:none;
+}
+
+/* Scoreboard styling */
+
+#highScoreSection {
+    display: none;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#highScorePage {
+    display: none;
+    width: 50%;
+    border: solid;
+    padding-bottom: .3rem;
+}
+
+#highScoreHeading {
+    display: flex;
+    justify-content: space-around;
+}
+
+#endgame {
+    display: none;
+}
+
+li{
+    padding-bottom: 3px;
+    list-style-type: none;
+}
+
+#highScoreInitials{
+    display: inline-block;
+    padding-left: 10rem;
+    font-family: sans-serif;
+}
+
+#highScore{
+    float: right;
+    padding-right: 10rem;
+    font-family: sans-serif;
+}
