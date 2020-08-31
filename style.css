@@ -1,3 +1,29 @@
+html,body {
+    font-family: 'Courier new', sans-serif;
+    height: 100%;
+}
+
+/* index styling */
+
+#welcomeMsg {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Button styling */
+
+button {
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Courier new', sans-serif;
+}
+
 /* Questions styling */
 
 #quizActual {
@@ -46,4 +72,14 @@ li{
     float: right;
     padding-right: 10rem;
     font-family: sans-serif;
+}
+
+/* Adapting to multiple screen sizes */
+
+@media only screen and (min-width: 768px) {
+
+    #welcomeMsg {
+        min-width: 100%;
+    }
+
 }
