@@ -11,8 +11,8 @@
 </head>
 
 <body>
-    <div id="content">
-        <div id="welcomeMsg">
+    <main id="content">
+        <header id="welcomeMsg">
             <section>
                 <h1>Welcome to the JavaScript Fundamentals Quiz</h1>
                 <h4>Test your knowledge of JavaScript basic concepts.</h4>
@@ -20,19 +20,19 @@
 
             <br>
 
-            <div>
+            <section>
                 <button id="beginBtn">Begin Quiz</button>
-            </div>
+            </section>
 
             <br>
 
-            <div>
+            <section>
                 <button id="scoreboardBtn" onclick="displayHighScore()">Click here to view Scoreboard</button>
-            </div>
-        </div>
+            </section>
+        </header>
 
-        <div id="quizActual">
-            <div id="timer">Time remaining: </div>
+        <section id="quizActual">
+            <article id="timer">Time remaining: </article>
 
             <div id="questionsDisplayed"></div>
             <button id="1" onclick="answerCheck('1')">1</button><br><br>
@@ -40,24 +40,27 @@
             <button id="3" onclick="answerCheck('3')">3</button><br><br>
             <button id="4" onclick="answerCheck('4')">4</button><br><br>
             <button id="5" onclick="answerCheck('5')">5</button>
-        </div>
+        </section>
 
         <section id="endgame">
-            <div id="result"></div><br>
+            <article id="result"></article>
+
+            <br>
+            
             <input type="text" placeholder="Please enter your initials." name="initials" id="initials" />
             <button id="submitScore">Submit Score</button>
         </section>
 
         <section id="highScoreSection">
-            <div id="highScorePage">
-                <div id="highScoreHeading">
+            <article id="highScorePage">
+                <article id="highScoreHeading">
                     <h4>High Scores</h4>
-                </div>
-                <div id="highScoreInitials"></div>
-                <div id="highScore"></div>
-            </div>
+                </article>
+                <article id="highScoreInitials"></article>
+                <article id="highScore"></article>
+            </article>
         </section>
-    </div>
+    </main>
 
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
