@@ -104,12 +104,16 @@ var questions = [
 
 ];
 
+// More variables
+
 var finalQuestion = questions.length;
 var activeQuestion = 0;
 var correct;
 var score = 0;
 var timeRemaining = 61;
 var timerInterval;
+
+// Displaying questions
 
 function displayQuizQuestion() {
     endGameSection.style.display = "none";
@@ -155,6 +159,8 @@ function displayScore() {
     resultScore.innerHTML = "Your score is " + score + " out of " + questions.length + ".";
 }
 
+// Entering initials
+
 submitScore.addEventListener("click", function highscore() {
     if (highScoreName.value === "") {
         alert("Please enter your initials.");
@@ -177,6 +183,8 @@ submitScore.addEventListener("click", function highscore() {
 
     }
 });
+
+// High Scores
 
 function loadHighScores() {
     highScoreInitials.innerHTML = "";
@@ -201,6 +209,8 @@ function displayHighScore() {
     loadHighScores();
 }
 
+// Checking each answered question if correct or not
+
 function answerCheck(answer) {
     correct = questions[activeQuestion].answer;
 
@@ -214,5 +224,7 @@ function answerCheck(answer) {
         displayQuizQuestion();
     }
 }
+
+// Event listener to begin quiz
 
 beginQuizBtn.addEventListener("click", beginQuiz);

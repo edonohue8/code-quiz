@@ -27,6 +27,8 @@ button {
     font-size: 13px;
 }
 
+/* Styling for main content */
+
 #content {
     text-align: center;
     display: flex;
@@ -83,6 +85,8 @@ li{
     padding-right: 8rem;
     font-family: sans-serif;
 }
+
+/* Footer styling */
 
 .footer {
     text-align: center;
